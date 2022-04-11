@@ -7,8 +7,6 @@ class MailService {
       host: process.env.SMTP_HOST,
       port: process.env.SMTP_PORT,
       secure: false,
-      logger: true,
-      debug: true,
       ignoreTLS: true,
       requireTLS: false,
       auth: {
